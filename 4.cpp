@@ -1,21 +1,20 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
 int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
     {
-        int t;
-        cin >> t;
-        while (t--)
-        {
-            int X=(2*X)*5;
-            int Y=X*Y;
-            
-            
-            
-            cout<<X<<endl;
-            
-            cout<<Y<<endl;
-            
-        }
+        int A, B, S, P;
+        cin >> A >> B;;
+        //Sum of inputs
+        S = A + B;
+        //Product of inputs
+        P = A * B;
+        //Print the desired output for each test case
+        cout << S << " " << P << endl;
     }
+    return 0;
+}
