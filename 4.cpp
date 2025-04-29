@@ -8,7 +8,7 @@ int main()
     while (t--)
     {
         int A, B, S, P;
-        cin >> A >> B;;
+        cin >> A >> B;
         //Sum of inputs
         S = A + B;
         //Product of inputs
