@@ -11,7 +11,7 @@ int main (){
         if(s >100 ){
             s -= 10 ; 
         }
-        cout<<s<<"\n"; 
+        cout<<s<<endl; 
     }
     return 0 ; 
 }
