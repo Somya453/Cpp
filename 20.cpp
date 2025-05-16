@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     for (int i = 1; i <=10; i++)
     {
-        cout<<i*15<<endl;
+        cout<<i*25<<endl;
     }
     
 }
