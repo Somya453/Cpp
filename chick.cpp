@@ -18,9 +18,9 @@ int main(){
     if(Z==X || Z==Y){
         cout<<"ANY"<<endl;
     }
-    else(Z!=X || Z!=Y){
-        cout<<"NONE"<<endl;
-    }
+    // else(Z!=X || Z!=Y){
+    //     cout<<"NONE"<<endl;
+    // }
     }
     
     
