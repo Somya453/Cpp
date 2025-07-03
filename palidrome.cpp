@@ -16,8 +16,8 @@ int main(){
     }
 
     if(reverse == dup){
-        cout << "Palindrome";
+        cout << "Palindrome!";
     }else{
-        cout << "Not Palindrome";
+        cout << "Not a Palindrome!";
     }
 }
