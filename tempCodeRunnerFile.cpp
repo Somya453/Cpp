@@ -1,26 +1,30 @@
-// Step 1: Read and understand the problem statement and sample test cases
-
-// Click on 'Next' once you are ready to proceed.
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-int main(){
-    int X, Y;
-    cin>>X>>Y;
-    int Z=X+Y;
-    cout<<Z<<endl;
-    
-    if(X==Z && Z!=Y){
-        cout<<"CHICKEN"<<endl;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int sum = 0;
+    int num = n;
+    int digit = 0;
+
+
+        // Count the number of digits
+        while (num > 0) {
+            digit = num % 10;
+            num /= 10;
+            // Calculate the sum of cubes of digits
+            sum = sum + (digit * digit * digit);
+
+
+        }
+
+        if (sum == n) {
+            cout << "Armstrong Number!";
+        } else {
+            cout << "Not an Armstrong Number!";
+        }
+
     }
-    if(Y==Z && Z!=X){
-        cout<<"DUCK"<<endl;
-    }
-    if(Z==X || Z==Y){
-        cout<<"ANY"<<endl;
-    }
-    else(Z!=X || Z!=Y){
-        cout<<"NONE"<<endl;
-    }
-    }
-    
-    
+
