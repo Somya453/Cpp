@@ -10,6 +10,12 @@ int main() {
   std::cin >> month2;
 
    MoM = (month2-month1)/(month1)*100;
+<<<<<<< HEAD
    std::cout << "MoM" << " = " << (month2-month1)/(month1)*100 << std::endl;
 
 }
+=======
+   std::cout << MoM << " = " << (month2-month1)/(month1)*100 << std::endl;
+
+}
+>>>>>>> e9f3098545103518fa7363aaa3db2b31e30d7cdd
