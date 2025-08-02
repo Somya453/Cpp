@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    for (int i = 1; i <=10; i++)
-    {
-        cout<<i*8<<endl;
-    }
-    
+int main() {
+	// Your code here
+    int n;
+    cin>>n;
+    cout<<char(n);
+    return 0;
 }
