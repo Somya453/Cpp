@@ -6,6 +6,8 @@ using namespace std;
 int main()
 {
     int t;
+    
+    cout << "Enter the number of test cases: " << endl;
     cin >> t;
     while (t--)
     {
