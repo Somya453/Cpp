@@ -1,30 +1,16 @@
-#include <iostream>
-using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
+    char c;
+    cin >> c;
 
-    int sum = 0;
-    int num = n;
-    int digit = 0;
-
-
-        // Count the number of digits
-        while (num > 0) {
-            digit = num % 10;
-            num /= 10;
-            // Calculate the sum of cubes of digits
-            sum = sum + (digit * digit * digit);
-
-
-        }
-
-        if (sum == n) {
-            cout << "Armstrong Number!";
-        } else {
-            cout << "Not an Armstrong Number!";
-        }
-
+    if (c >= 'a' && c <= 'z') {
+        c = c - 32; // Convert to uppercase
+    } else if (c >= 'A' && c <= 'Z') {
+        c = c + 32; // Convert to lowercase
     }
 
+    cout << c << endl;
+
+
+    return 0;
+}
