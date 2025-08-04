@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/somya/OneDrive/文档/GitHub/Cpp",
-      "program": "c:/Users/somya/OneDrive/文档/GitHub/Cpp/build/Debug/outDebug",
+      "cwd": "c:/Users/somya/OneDrive/Desktop/GitHub/Cpp",
+      "program": "c:/Users/somya/OneDrive/Desktop/GitHub/Cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

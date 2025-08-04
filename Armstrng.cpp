@@ -9,12 +9,12 @@ public:
     bool isArmstrong(int n) {
 
         int sum = 0;
-        int num = n;
+        int num = 7;
         int digit = 0;
 
         // Count the number of digits
         while (num > 0) {
-            digit=n % 10;
+            digit=num % 10;
             sum=sum+(digit*digit*digit);
             num /= 10;
             
