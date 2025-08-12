@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     string name;
+    cout << "Enter your name: ";
     cin >> name;
 
     long long sum = 0; // long long for safety, since |name| can be up to 10^6
